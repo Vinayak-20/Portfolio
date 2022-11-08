@@ -290,6 +290,7 @@ word-spacing: 3px;
             word-spacing: normal;
 
         }
+
 }
 
 @keyframes anima{
@@ -392,6 +393,7 @@ word-spacing: 3px;
     .skills-bar{
 
         width:90%;
+
     }
 }
 .skills-bar .bar{
@@ -657,4 +659,48 @@ word-spacing: 3px;
     cursor: pointer;
     box-shadow: 0 0 10px white;
 
+}
+@media(max-width:450px){
+    #contact{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        background-color: #252525;
+        color: white;
+        padding: 20px;
+        
+       }
+       .form{
+           display: flex;
+           flex-direction: column;
+           box-sizing: border-box;
+           align-items: center;
+           margin: 20px 0px;
+       
+       }
+       .input{
+           padding: 12px;
+           margin: 15px;
+           width: 50%;
+           border: none;
+           outline: none;
+       }
+       #msg{
+           width: 50%;
+           margin: 15px;
+           border: none;
+           outline: none;
+       }
+       #send{
+           padding: 10px;
+           width: 30%;
+           margin: 50px;
+           outline: none;
+           border: none;
+       }
+       #send:hover{
+           cursor: pointer;
+           box-shadow: 0 0 10px white;
+       
+       }
 }
